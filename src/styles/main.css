@@ -5,9 +5,11 @@
 @theme {
 	--font-*: initial;
 	--font-heading: sans-serif;
-	--font-body: sans-serif;
+	--font-body: proxima-nova, sans-serif;
 
-	--color-brand-primary: ;
+	--color-brand-primary: #5798cf;
+	--color-brand-secondary: #255a90;
+	--color-brand-orange: #e08030;
 }
 
 @utility container {
