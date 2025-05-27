@@ -6,10 +6,124 @@ import Footer from '@components/Footer.astro';
 
 <Layout title='Astro'>
 	<Header />
-	<div class=''>
-		<h1 class='mt-4 text-xl'>Home</h1>
-		<p>This is the Astro homepage page.</p>
-		<img src='/img/icon-home.png' />
+	<div class='relative'>
+		<div class="bg-linear-to-r from-white md:via-transparent absolute inset-0 z-20 w-full h-full"></div>
+		<img src="/img/hero-homepage.png" class="absolute inset-0 w-full h-full object-cover object-[25%_0%] sm:object-[20%_0%] md:object-[30%_0%] lg:object-[20%_0%] xl:object-[50%_0%]" alt="">
+		<div class="container relative z-30 h-[30rem] md:h-[40rem] flex items-center">
+			<div class="w-5/6 sm:w-1/2 md:w-[43%] xl:w-1/3">
+				<h2 class="text-brand-orange uppercase text-2xl md:text-3xl pb-1">UW DAK LATEN ONTMOSSEN OF EEN REINIGING?</h2>
+				<h2 class="text-brand-secondary uppercase text-2xl md:text-3xl">VRAAG VRIJBLIJVEND <br /> UW OFFERTE AAN!</h2>
+			</div>
+		</div>
+	</div>
+	<div class="relative">
+		<div class="container flex items-center py-10 md:py-16 lg:py-24">
+			<div class="md:w-[45%] xl:pl-24">
+				<div class="flex gap-1 md:gap-2 mb-5 md:mb-7">
+					<img src="/img/icon-lines.svg" class="h-4 md:h-6 mt-1 md:mt-px" alt="">
+					<h2 class="text-brand-primary font-medium text-2xl/[24px] md:text-3xl/[30px]">Over ons</h2>
+				</div>
+				<div class="prose text-black prose-p:text-xs max-w-full">
+					<p>
+							Mendae. Itatus milique solorib earibus.<br/>
+							Or sit aspelectur, officias vellestrum que quas nam dolupid ustiur andae porisin ciendit, te dolorias dolor moluptas quas non con nullam, velecepuda quisciet lam aut ligentin cum fugit lacea sam ilitatia dolorum quiatem autam, simust explabo. Ibuscia quis moles quo ex et aceate num quis etur sequidipsum inctem enimus voluptate ducitatibus ulparume pore in etum laniet laut etur audio omnihil laborem iment quia volorem nim quis dolorit, to dolorios eliquatiur reprovitat.
+					</p>
+				</div>
+			</div>
+		</div>
+		<img src="/img/about-image.JPG" class="md:absolute w-full md:w-1/2 h-full inset-y-0 right-0 object-cover" alt="">
+	</div>
+	<div class="bg-[#ededed] py-14 lg:py-16">
+		<div class="container pl-0">
+				<div class="flex flex-col md:flex-row items-center">
+					<div class='relative overflow-auto w-full md:w-1/2'>
+						<div class='flex pl-0 whitespace-nowrap'>
+							<div class='mr-0 flex flex-col md:flex-row md:items-center'>
+								<div class='relative overflow-auto'>
+									<div class='flex flex-col whitespace-nowrap ml-4'>
+										<div class='flex shrink-0 gap-4 lg:gap-10'>
+											<div class="w-[18rem] sm:w-[22rem] md:w-[20rem] shrink-0 lg:w-[24rem] xl:w-[26rem] opacity-40">
+												<img
+													src='/img/services-image-01.png'
+													class='h-[12rem] sm:h-[14rem] lg:h-[16rem] w-full object-cover'
+													alt=''
+												/>
+												<a href="/" class="text-right pt-5 md:pt-6 lg:pt-7 block">
+													<h3 class="text-brand-secondary uppercase text-lg md:text-xl font-medium">DAKREINIGING</h3>
+													<p class="uppercase text-brand-orange text-xs font-medium hover:text-black">LEES MEER</p>
+												</a>
+											</div>
+											<div class="w-[18rem] sm:w-[22rem] md:w-[20rem] shrink-0 lg:w-[24rem] xl:w-[26rem] opacity-40">
+												<img
+													src='/img/services-image-02.png'
+													class='h-[12rem] sm:h-[14rem] lg:h-[16rem] w-full object-cover'
+													alt=''
+												/>
+												<a href="/" class="text-right pt-5 md:pt-6 lg:pt-7 block">
+													<h3 class="text-brand-secondary uppercase text-lg md:text-xl font-medium">GEVELREINIGING</h3>
+													<p class="uppercase text-brand-orange text-xs font-medium hover:text-black">LEES MEER</p>
+												</a>
+											</div>
+											<div class="w-[18rem] sm:w-[22rem] md:w-[20rem] shrink-0 lg:w-[24rem] xl:w-[26rem]">
+												<img
+													src='/img/services-image-01.png'
+													class='h-[12rem] sm:h-[14rem] lg:h-[16rem] w-full object-cover'
+													alt=''
+												/>
+												<a href="/" class="text-right pt-5 md:pt-6 lg:pt-7 block">
+													<h3 class="text-brand-secondary uppercase text-lg md:text-xl font-medium">DAKREINIGING</h3>
+													<p class="uppercase text-brand-orange text-xs font-medium hover:text-black">LEES MEER</p>
+												</a>
+											</div>
+										</div>
+										<div class='relative mt-4 h-2 w-full bg-[#c5d3e0]'>
+											<div class='bg-brand-secondary absolute inset-y-0 right-0 h-full w-72'></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="md:w-[45%] pl-4 md:pl-0 xl:pl-8 lg:pr-10 xl:pr-16 ml-auto pt-10 md:pt-0">
+						<div class="flex gap-1 md:gap-2 mb-5 md:mb-7">
+							<img src="/img/icon-lines.svg" class="h-4 md:h-6 mt-1 md:mt-px" alt="">
+							<h2 class="text-brand-primary font-medium text-2xl/[24px] md:text-3xl/[30px]">Onze diensten</h2>
+						</div>
+						<div class="prose text-black prose-p:text-xs max-w-full">
+							<p>
+									Mendae. Itatus milique solorib earibus.<br/>
+									Or sit aspelectur, officias vellestrum que quas nam dolupid ustiur andae porisin ciendit, te dolorias dolor moluptas quas non con nullam, velecepuda quisciet lam aut ligentin cum fugit lacea sam ilitatia dolorum quiatem autam, simust explabo. Ibuscia quis moles quo ex et aceate num quis etur sequidipsum inctem enimus voluptate ducitatibus ulparume pore in etum laniet laut etur audio omnihil laborem iment quia volorem nim quis dolorit, to dolorios eliquatiur reprovitat.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="relative">
+		<div class="container flex items-center py-10 md:py-16 lg:py-24">
+			<div class="md:w-[45%] xl:pl-24">
+				<div class="flex gap-1 md:gap-2 mb-5 md:mb-7">
+					<img src="/img/icon-lines.svg" class="h-4 md:h-6 mt-1 md:mt-px" alt="">
+					<h2 class="text-brand-primary font-medium text-2xl/[24px] md:text-3xl/[30px]">Waarom kiezen voor ons</h2>
+				</div>
+				<ul class="list-inside">
+					<li class="flex gap-2 text-xs">
+						<svg class="text-brand-orange h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z"></path></svg>
+						Zaakvoerder is de uitvoerder met de nodige veilige aanpak
+					</li>
+					<li class="flex gap-2 text-xs">
+						<svg class="text-brand-orange h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z"></path></svg>
+						Gebruik van de meest professionele stoomtrailer
+					</li>
+					<li class="flex gap-2 text-xs">
+						<svg class="text-brand-orange h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z"></path></svg>
+						Gebruik van een unieke hoogwerker om schade aan uw dakpannen te voorkomen.
+					</li>
+				</ul>
+			</div>
+		</div>
+		<img src="/img/why-us-image.jpg" class="md:absolute w-full md:w-1/2 h-full inset-y-0 right-0 object-cover" alt="">
 	</div>
 	<Footer />
 </Layout>

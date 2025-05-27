@@ -1,0 +1,18 @@
+---
+import Layout from '@layouts/Layout.astro';
+import Header from '@components/Header.astro';
+import Footer from '@components/Footer.astro';
+---
+
+<Layout title='Astro'>
+	<Header />
+	<div class='relative'>
+		<img src="/img/hero-facade-cleaning.png" class="absolute inset-0 w-full h-full object-cover object-[20%_0%] sm:object-[30%_0%] xl:object-[50%_0%]" alt="">
+		<div class="container relative z-30 h-[24rem] md:h-[25rem] xl:h-[30rem] flex items-center justify-end">
+			<div class="lg:pr-16 sm:pt-6">
+				<h2 class="text-brand-orange uppercase text-4xl md:text-5xl">GEVELREINIGING</h2>
+			</div>
+		</div>
+	</div>
+	<Footer />
+</Layout>
