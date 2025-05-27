@@ -35,12 +35,12 @@ import Footer from '@components/Footer.astro';
 	</div>
 	<div class="bg-[#ededed] py-14 lg:py-16">
 		<div class="container pl-0">
-				<div class="flex flex-col md:flex-row items-center">
-					<div class='relative overflow-auto w-full md:w-1/2'>
-						<div class='flex pl-0 whitespace-nowrap'>
+				<div class="flex flex-col md:flex-row items-center ">
+					<div class='relative overflow-auto w-full md:w-1/2' x-data x-init="$el.scrollLeft = $el.scrollWidth - $el.clientWidth">
+						<div class='flex pl-0 whitespace-nowrap ' >
 							<div class='mr-0 flex flex-col md:flex-row md:items-center'>
-								<div class='relative overflow-auto'>
-									<div class='flex flex-col whitespace-nowrap ml-4'>
+								<div class='relative overflow-auto ' >
+									<div class='flex flex-col whitespace-nowrap ml-4' >
 										<div class='flex shrink-0 gap-4 lg:gap-10'>
 											<div class="w-[18rem] sm:w-[22rem] md:w-[20rem] shrink-0 lg:w-[24rem] xl:w-[26rem] opacity-40">
 												<img
